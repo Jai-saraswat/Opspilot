@@ -1,0 +1,116 @@
+
+# ============================================================
+# DEFAULT TEXT HANDLING
+# ============================================================
+* text=auto
+
+# ============================================================
+# PYTHON
+# ============================================================
+*.py text eol=lf linguist-language=Python
+*.pyi text eol=lf linguist-language=Python
+*.pyx text eol=lf linguist-language=Python
+*.toml text eol=lf
+*.ini text eol=lf
+*.cfg text eol=lf
+
+# ============================================================
+# FRONTEND: JAVASCRIPT / TYPESCRIPT / REACT
+# ============================================================
+*.js text eol=lf linguist-language=JavaScript
+*.jsx text eol=lf linguist-language=JavaScript
+*.mjs text eol=lf linguist-language=JavaScript
+*.cjs text eol=lf linguist-language=JavaScript
+*.ts text eol=lf linguist-language=TypeScript
+*.tsx text eol=lf linguist-language=TypeScript
+*.vue text eol=lf
+*.svelte text eol=lf
+
+# ============================================================
+# STYLES AND WEB ASSETS
+# ============================================================
+*.css text eol=lf linguist-language=CSS
+*.scss text eol=lf
+*.sass text eol=lf
+*.less text eol=lf
+*.html text eol=lf linguist-language=HTML
+*.htm text eol=lf linguist-language=HTML
+*.svg text eol=lf linguist-language=SVG
+
+# ============================================================
+# SQL / DATABASE
+# ============================================================
+*.sql text eol=lf linguist-language=SQL
+*.psql text eol=lf linguist-language=SQL
+*.pgsql text eol=lf linguist-language=SQL
+
+# ============================================================
+# CONFIGURATION / INFRASTRUCTURE
+# ============================================================
+*.json text eol=lf
+*.jsonc text eol=lf
+*.json5 text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.toml text eol=lf
+*.ini text eol=lf
+*.conf text eol=lf
+*.config text eol=lf
+*.env.example text eol=lf
+Dockerfile text eol=lf
+.dockerignore text eol=lf
+.gitattributes text eol=lf
+.gitignore text eol=lf
+
+# ============================================================
+# DOCUMENTATION / SCRIPTS
+# ============================================================
+*.md text eol=lf linguist-language=Markdown
+*.mdx text eol=lf linguist-language=MDX
+*.txt text eol=lf
+*.rst text eol=lf
+*.sh text eol=lf
+*.bash text eol=lf
+*.ps1 text eol=crlf
+*.bat text eol=crlf
+*.cmd text eol=crlf
+Makefile text eol=lf
+*.xml text eol=lf
+*.graphql text eol=lf
+*.gql text eol=lf
+
+# ============================================================
+# BINARY / MEDIA FILES
+# ============================================================
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.ico binary
+*.icns binary
+*.pdf binary
+*.zip binary
+*.7z binary
+*.gz binary
+*.tar binary
+*.rar binary
+*.woff binary
+*.woff2 binary
+*.ttf binary
+*.otf binary
+*.eot binary
+*.mp3 binary
+*.mp4 binary
+*.wav binary
+*.ogg binary
+*.glb binary
+*.gltf binary
+*.obj binary
+*.stl binary
+
+# ============================================================
+# GITHUB LANGUAGE STATISTICS
+# ============================================================
+# Keep first-party application source visible to Linguist.
+# Do not mark source directories as generated or vendored.

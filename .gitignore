@@ -1,0 +1,194 @@
+
+# ============================================================
+# ENVIRONMENT FILES AND SECRETS
+# ============================================================
+# IDE configuration
+.idea/
+.env
+.env.*
+!.env.example
+!.env.template
+!.env.sample
+# Local PostgreSQL data directory
+/DEPLOYEMENT/postgres/
+**/.env
+**/.env.*
+!**/.env.example
+!**/.env.template
+!**/.env.sample
+
+# Private credentials and certificates
+secrets/
+**/secrets/
+private/
+**/private/
+*.pem
+*.key
+*.p12
+*.pfx
+*.keystore
+
+# ============================================================
+# NODE.JS DEPENDENCIES
+# ============================================================
+
+node_modules/
+**/node_modules/
+
+# Package manager caches
+.npm/
+**/.npm/
+.pnpm-store/
+**/.pnpm-store/
+
+# Yarn cache (keep committed Yarn configuration files)
+.yarn/cache/
+.yarn/unplugged/
+.yarn/install-state.gz
+
+# ============================================================
+# NEXT.JS / FRONTEND BUILD OUTPUT
+# ============================================================
+
+.next/
+**/.next/
+out/
+**/out/
+.vercel/
+**/.vercel/
+.turbo/
+**/.turbo/
+.parcel-cache/
+**/.parcel-cache/
+
+# Other generated frontend build directories
+dist/
+**/dist/
+build/
+**/build/
+
+# TypeScript generated build information
+*.tsbuildinfo
+
+# Package manager logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# ============================================================
+# PYTHON VIRTUAL ENVIRONMENTS
+# ============================================================
+
+.venv/
+**/.venv/
+venv/
+**/venv/
+ENV/
+**/ENV/
+env/
+**/env/
+
+# Python bytecode and caches
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+
+# Python test, type-checking and lint caches
+.pytest_cache/
+**/.pytest_cache/
+.mypy_cache/
+**/.mypy_cache/
+.pyright/
+.ruff_cache/
+.tox/
+.nox/
+.hypothesis/
+
+# Python packaging output
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+pip-wheel-metadata/
+
+# Python coverage and profiling
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+*.prof
+*.profraw
+
+# Jupyter runtime files
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# ============================================================
+# LOGS AND TEMPORARY FILES
+# ============================================================
+
+*.log
+*.log.*
+logs/
+**/logs/
+*.pid
+*.tmp
+*.temp
+*.swp
+*.swo
+*.orig
+*.rej
+*~
+
+# ============================================================
+# LOCAL DATABASE FILES AND BACKUPS
+# ============================================================
+
+*.sqlite
+*.sqlite3
+*.db
+*.dump
+*.backup
+*.bak
+*.sql.gz
+
+# Local database storage (not schema or migration files)
+pgdata/
+**/pgdata/
+postgres-data/
+**/postgres-data/
+redis-data/
+**/redis-data/
+
+# ============================================================
+# TEST OUTPUT
+# ============================================================
+
+coverage/
+**/coverage/
+test-results/
+**/test-results/
+playwright-report/
+blob-report/
+
+# ============================================================
+# EDITORS AND OPERATING SYSTEM FILES
+# ============================================================
+
+.vscode/
+.idea/
+.DS_Store
+**/.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ============================================================
+# LOCAL DEPLOYMENT OVERRIDES
+# ============================================================
+
+docker-compose.override.yml
+docker-compose.override.yaml
+compose.override.yml
+compose.override.yaml
