@@ -1,4 +1,3 @@
-
 # ============================================================
 # DEFAULT TEXT HANDLING
 # ============================================================
@@ -10,12 +9,11 @@
 *.py text eol=lf linguist-language=Python
 *.pyi text eol=lf linguist-language=Python
 *.pyx text eol=lf linguist-language=Python
-*.toml text eol=lf
-*.ini text eol=lf
-*.cfg text eol=lf
+*.pxd text eol=lf linguist-language=Python
+*.pxi text eol=lf linguist-language=Python
 
 # ============================================================
-# FRONTEND: JAVASCRIPT / TYPESCRIPT / REACT
+# JAVASCRIPT / TYPESCRIPT / WEB FRAMEWORKS
 # ============================================================
 *.js text eol=lf linguist-language=JavaScript
 *.jsx text eol=lf linguist-language=JavaScript
@@ -25,6 +23,7 @@
 *.tsx text eol=lf linguist-language=TypeScript
 *.vue text eol=lf
 *.svelte text eol=lf
+*.astro text eol=lf
 
 # ============================================================
 # STYLES AND WEB ASSETS
@@ -38,46 +37,113 @@
 *.svg text eol=lf linguist-language=SVG
 
 # ============================================================
-# SQL / DATABASE
+# DATABASE / QUERY LANGUAGES
 # ============================================================
 *.sql text eol=lf linguist-language=SQL
 *.psql text eol=lf linguist-language=SQL
 *.pgsql text eol=lf linguist-language=SQL
+*.prisma text eol=lf linguist-language=Prisma
+*.graphql text eol=lf linguist-language=GraphQL
+*.gql text eol=lf linguist-language=GraphQL
 
 # ============================================================
-# CONFIGURATION / INFRASTRUCTURE
+# DATA / CONFIGURATION FORMATS
 # ============================================================
 *.json text eol=lf
 *.jsonc text eol=lf
 *.json5 text eol=lf
-*.yaml text eol=lf
-*.yml text eol=lf
+*.yaml text eol=lf linguist-language=YAML
+*.yml text eol=lf linguist-language=YAML
 *.toml text eol=lf
 *.ini text eol=lf
+*.cfg text eol=lf
 *.conf text eol=lf
 *.config text eol=lf
+*.properties text eol=lf
+*.xml text eol=lf
+*.csv text eol=lf
+*.tsv text eol=lf
 *.env.example text eol=lf
-Dockerfile text eol=lf
-.dockerignore text eol=lf
-.gitattributes text eol=lf
-.gitignore text eol=lf
 
 # ============================================================
-# DOCUMENTATION / SCRIPTS
+# DOCKER / INFRASTRUCTURE
+# ============================================================
+Dockerfile text eol=lf
+Dockerfile.* text eol=lf
+.dockerignore text eol=lf
+docker-compose.yaml text eol=lf linguist-language=YAML
+docker-compose.yml text eol=lf linguist-language=YAML
+*.tf text eol=lf
+*.hcl text eol=lf
+*.nix text eol=lf
+
+# ============================================================
+# DOCUMENTATION
 # ============================================================
 *.md text eol=lf linguist-language=Markdown
 *.mdx text eol=lf linguist-language=MDX
-*.txt text eol=lf
 *.rst text eol=lf
+*.txt text eol=lf
+*.adoc text eol=lf
+*.tex text eol=lf
+LICENSE text eol=lf
+Makefile text eol=lf
+
+# ============================================================
+# SHELL / AUTOMATION
+# ============================================================
 *.sh text eol=lf
 *.bash text eol=lf
+*.zsh text eol=lf
+*.fish text eol=lf
 *.ps1 text eol=crlf
+*.psm1 text eol=crlf
+*.psd1 text eol=crlf
 *.bat text eol=crlf
 *.cmd text eol=crlf
-Makefile text eol=lf
-*.xml text eol=lf
-*.graphql text eol=lf
-*.gql text eol=lf
+
+# ============================================================
+# OTHER COMMON PROGRAMMING LANGUAGES
+# Add these only when the corresponding files exist.
+# ============================================================
+*.c text eol=lf
+*.h text eol=lf
+*.cpp text eol=lf
+*.hpp text eol=lf
+*.cc text eol=lf
+*.java text eol=lf
+*.kt text eol=lf
+*.kts text eol=lf
+*.go text eol=lf
+*.rs text eol=lf
+*.rb text eol=lf
+*.php text eol=lf
+*.swift text eol=lf
+*.dart text eol=lf
+*.r text eol=lf
+*.R text eol=lf
+*.jl text eol=lf
+*.lua text eol=lf
+*.pl text eol=lf
+*.pm text eol=lf
+*.ex text eol=lf
+*.exs text eol=lf
+*.erl text eol=lf
+*.hrl text eol=lf
+*.scala text eol=lf
+*.sc text eol=lf
+*.clj text eol=lf
+*.cljs text eol=lf
+*.cljc text eol=lf
+*.hs text eol=lf
+*.lhs text eol=lf
+*.fs text eol=lf
+*.fsx text eol=lf
+*.vb text eol=lf
+*.cs text eol=lf
+*.sol text eol=lf
+*.vue text eol=lf
+*.ipynb text eol=lf
 
 # ============================================================
 # BINARY / MEDIA FILES
@@ -110,7 +176,7 @@ Makefile text eol=lf
 *.stl binary
 
 # ============================================================
-# GITHUB LANGUAGE STATISTICS
-# ============================================================
-# Keep first-party application source visible to Linguist.
+# GITHUB LINGUIST
+# Keep real application source visible to language statistics.
 # Do not mark source directories as generated or vendored.
+# ============================================================
